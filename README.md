@@ -6,10 +6,11 @@ by Bill Joy in '76. Vim stands for "Vi iMproved" and it is an open source,
 multi-platform project created and maintained by Bram Moolenaar. There is a
 large number of dedicated contributors that help maintain Vim.
 
-Vim can be obtained, free of charge, at [vim.org] (www.vim.org). It should be
-noted that Vim is charityware, which means that you do not have to pay anything
-for it, but if you love Vim you can 'pay' for it by donating to Bram's charity
-[ICCF Holland] (www.iccf-holland.org) which supports needy children in Uganda.
+Vim can be obtained, free of charge, at [vim.org] (http://www.vim.org). It
+should be noted that Vim is charityware, which means that you do not have to
+pay anything for it, but if you love Vim you can 'pay' for it by donating to
+Bram's charity [ICCF Holland] (http://www.iccf-holland.org) which supports
+needy children in Uganda.
 
 A few things to know before you start reading this overview:
 
@@ -79,9 +80,10 @@ well. When you are done, use `:q` to close the help window.
 
 * Other ways to get help:
  * `:helpgrep` a way to seach the help pages for something specific.
- * [Google.com] (www.google.com) well, there is always Google!
- * [Vim's wiki] (vim.wikia.com) there is a lot there.
- * "Learn Vimscript the Hard Way" by Steve Losh.
+ * [Google.com] (http://www.google.com) well, there is always Google!
+ * [Vim's wiki] (http://www.vim.wikia.com) there is a lot there.
+ * [Learn Vimscript the Hard Way]
+   (http://learnvimscriptthehardway.stevelosh.com) by Steve Losh.
 
 * There are *way too many* cheat sheets, find one or two you like, keep them
 next to your keyboard until you do not have to look at them anymore. A few that
@@ -341,8 +343,8 @@ occurs on the first match found; some useful `[flags]` are listed below.
 Regular expressions (`:help pattern`, `:help usr_27.txt`) can turn a 'normal'
 search pattern into a 'super' search pattern. Regular expressions are
 complicated, confusing, convoluted, but **powerful**!! See [this xkcd comic]
-(www.xkcd.com/1171) and [this one] (www.xkcd.com/208) and [this one]
-(www.xkcd.com/1313) as references.
+(http://www.xkcd.com/1171) and [this one] (http://www.xkcd.com/208) and [this
+one] (http://www.xkcd.com/1313) as references.
 
 Here I will give same basic Regular expressions to whet your appetite.
 
@@ -731,8 +733,8 @@ it to make Vim even better.
 There is a plethora of available plugins available to extend Vim's
 functionality, there are almost no end to the possibilities. You almost surely
 will find one that does *something* you will find helpful, even indispensable.
-[Github] (www.github.com) is a great place to look for plugins as is Vim's
-official [plugin repository] (http://www.vim.org/scripts/).
+[Github] (http://www.github.com) is a great place to look for plugins as is
+Vim's official [plugin repository] (http://www.vim.org/scripts/).
 
 Before I go any farther, __Use a plugin manager__. The way plugins are
 installed can be confusing and error prone, there are plugin managers that take
