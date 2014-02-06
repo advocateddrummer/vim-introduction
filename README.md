@@ -759,20 +759,26 @@ others are extremely configurable and complex. Depending on your workflow and
 the types of projects you typically work on you will find other projects out
 there that are perfect for you.
 
-* [EasyMotion] (https://github.com/Lokaltog/vim-easymotion)
-* [CtrlP] (https://github.com/kien/ctrlp.vim)
-* [UltiSnips] (https://github.com/SirVer/ultisnips)
-* [Airline] (https://github.com/bling/vim-airline)
-* [Unimpaired] (https://github.com/tpope/vim-unimpaired)
-* [Supertab] (https://github.com/ervandew/supertab)
+* [EasyMotion] (https://github.com/Lokaltog/vim-easymotion) Vim motions on
+  speed!
+* [CtrlP] (https://github.com/kien/ctrlp.vim) fuzzy file, buffer, mru, tag, etc
+  finder.
+* [UltiSnips] (https://github.com/SirVer/ultisnips) code snippet insertion.
+* [Airline] (https://github.com/bling/vim-airline) lean & mean status/tabline
+  for Vim that's light as air.
+* [Unimpaired] (https://github.com/tpope/vim-unimpaired) pairs of handy bracket
+  mappings.
+* [Supertab] (https://github.com/ervandew/supertab) perform all your Vim insert
+  mode completions with tab.
 
 Vim and Git plugins
 -------------------
 
 These plugins make using Git from within Vim a breeze.
 
-* [Fugitive] (https://github.com/tpope/vim-fugitive)
-* [GitV] (https://github.com/gregsexton/gitv)
+* [Fugitive] (https://github.com/tpope/vim-fugitive) a Git wrapper so awesome,
+  it should be illegal.
+* [GitV] (https://github.com/gregsexton/gitv) gitk for Vim.
 
 Programming with Vim
 ====================
