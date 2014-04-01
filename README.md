@@ -1,3 +1,13 @@
+<!---
+# Author: Ethan Alan Hereth
+# Contact: ethan-hereth@utc.edu
+#
+# Please submit corrections, bugs, and/or typos to the contact above.
+-->
+
+![the official Vim icon] (http://www.vim.org/images/vim_editor.gif "the
+official Vim icon")
+
 What is Vim?
 ============
 
@@ -824,9 +834,20 @@ you can jump back to your previous position using the `ctrl-t` shortcut.
 TODO
 ====
 
-* spell check (`:set spell`, `]s`, `z=`, ...)
-* case sensitive searching
-* diff mode
-* talk about `[count]`s.
-* add more to the Programming section.
-* summarize tabs
+* Spell check (`:set spell`, `]s`, `z=`, ...)
+* Case sensitive searching.
+* Diff mode.
+* Repeat last action with `.`.
+* Talk about `[count]`s.
+* Talk about `[ranges]`s.
+* Add more to the Programming section.
+* Summarize tabs.
+* Introduce macros.
+* netrw's `:Explore`.
+* External commands with `!`.
+* Jump to file under cursor with `gf`.
+* Switch to last buffer using `ctrl-^`.
+* "Coming home to Vim".
+* **Pro-tip**: mention `q:` and `q/`.
+* **Pro-tip**: repeat last substitute *with* last flags using `[range]&&`.
+* **Pro-tip**: limit search/search-and-replace to visual selection with `\/%V`.
