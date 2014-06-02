@@ -318,6 +318,16 @@ easily to find the perfect match.
  * `N` repeat last search in the opposite direction.
  * There are even more ways to repeat searches, read the manual.
 
+There are useful and flexible ways to search a text in a case sensitive or
+insensitive manner. The settings that I find most useful are: `set ignorecase`
+and `set smartcase` (`:help ignorecase`, `:help smartcase`). If `ignorecase` is
+on and `smartcase` is off, searching for foo or Foo will find the text foo,
+Foo, FOO, fOo, foO, and fOO.  However, if `smartcase` is also on, the search
+will become case sensitive as soon as a capitol character is included in the
+pattern; i.e. searching for fOO will *only* find the word fOO. Another way to
+force case sensitive/insensitive searching without these settings is to use
+`\c` and `\C` in the search pattern (`:help \c`, `:help \C`).
+
 Search and Replace
 ------------------
 (`:help substitute`)
@@ -835,7 +845,6 @@ TODO
 ====
 
 * Spell check (`:set spell`, `]s`, `z=`, ...)
-* Case sensitive searching.
 * Diff mode.
 * Repeat last action with `.`.
 * Talk about `[count]`s.
