@@ -94,6 +94,8 @@ well. When you are done, use `:q` to close the help window.
  * [Vim's wiki] (http://www.vim.wikia.com) there is a lot there.
  * [Learn Vimscript the Hard Way]
    (http://learnvimscriptthehardway.stevelosh.com) by Steve Losh.
+ * [A Vim Primer]
+   (http://danielmiessler.com/study/vim/) a fantastic read by Daniel Miessler.
 
 * There are *way too many* cheat sheets, find one or two you like, keep them
 next to your keyboard until you do not have to look at them anymore. A few that
